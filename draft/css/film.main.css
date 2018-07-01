@@ -5,6 +5,9 @@
 nav a.brand-logo, nav ul li a {
   color: black;
 }
+ a{
+  color: black;
+ }
 
 nav a.brand-logo {
   padding-top: 0.25%;
@@ -20,6 +23,72 @@ nav li a i.icon {
 
 .amber.lighten-5 {
   background-color: rgb(255, 248, 225) !important;
+}
+
+nav.amber.lighten-5.push-right {
+  padding-left: 90px;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  background-color: transparent;
+  color: #000;
+}
+
+.tabs .tab a {
+  color: rgba(0,0,0);
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0 24px;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-transition: color .28s ease, background-color .28s ease;
+  transition: color .28s ease, background-color .28s ease;
+} 
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  background-color: transparent;
+  color: #000;
+}
+
+.profile-pic{  
+  position: absolute;
+  max-width:200px;
+  height:200px;
+  top:150px;
+  left: 50px;
+  border-radius:50%;
+  margin-bottom: 20px
+}
+
+.collection {
+  margin: .5rem 0 1rem 0;
+  border:0px;
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+}
+
+.container.push-down {
+  padding-top: 50px;
+}
+
+span.shift-celeb-name {
+  padding-left: 100px;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+  background-color: rgba(256,256,256);
+  outline: none;
+}
+
+.tabs .indicator {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background-color: #000;
+  will-change: left, right;
 }
 
 .btn-round {
@@ -46,6 +115,15 @@ ul.nav-cats li a {
 ul.nav-cats li:hover a {
   color: #ffa726;
 }
+i.material-icons.smaller {
+  font-size: 15px;
+}
+.card .card-content {
+  padding: 24px;
+  border-radius: 0 0 2px 2px;
+  font-size: smaller;
+}
+
 
 main .container {
   min-width: 90%;
